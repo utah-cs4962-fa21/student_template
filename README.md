@@ -9,7 +9,7 @@ For that to work, you must have a `browser.py` file
   that exports all of the expected functions and classes.
 You don’t have to put all of your code into one file,
   but all of your classes and methods should be exported from this file.
-The easiest way to do that is to add from `other_file import *` at the top.
+The easiest way to do that is to add `from other_file import *` at the top.
 
 Details on the testing system can be found in [its repository][tests].
 
